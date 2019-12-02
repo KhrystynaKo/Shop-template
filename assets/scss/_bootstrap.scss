@@ -1,13 +1,12 @@
 .navbar-light .navbar-nav .nav-link {
-    white-space: nowrap;
-    color: $color-dark;
-    font-size: 1.2rem;
-  }
+  white-space: nowrap;
+  color: $color-dark;
+  font-size: 1.2rem;
+}
 
-  
 .navbar {
-    margin-right: -15px;
-    margin-left: -15px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .my-sm-0 {
@@ -20,20 +19,18 @@
   }
 }
 
-
 @media (min-width: 991px) {
   .dropdown .show {
     margin-top: -1px;
     margin-left: -1px;
     border-radius: 0;
     border-top: 1px solid $color-light;
-    background-color: $color-dark ;
-
+    background-color: $color-dark;
 
     & > .dropdown-item {
       color: $color-light;
       transition: color, background-color 0.2s linear;
-      
+
       &:hover,
       &:focus {
         color: $color-dark;
@@ -44,9 +41,44 @@
 
   .show .dropdown-toggle {
     background-color: $color-dark;
-  } 
+  }
 
   .header-nav .dropdown.show .dropdown-toggle {
     color: $color-light;
   }
 }
+
+.breadcrumb {
+  padding: 16px 0 0 0;
+  background-color: transparent;
+
+  
+
+  a {
+    color: rgba($color-light, 0.5%);
+  }
+
+  &-item {
+    font-size: 0.9rem;
+    color: rgba($color-light, 0.5%);
+
+    + .breadcrumb-item::before {
+      content: $breadcrumb-divider;
+      color: rgba($color-light, 0.5%);  
+    }
+  }  
+}
+
+// .breadcrumb {
+//   padding: 16px 0 0 0;
+//   background-color: transparent;
+//   a {
+//     color: rgba($color-light, 0.5%);
+//     }
+
+//   &-item {
+//     font-size: 0.9rem;
+
+//     &:not-
+//   }
+// }
