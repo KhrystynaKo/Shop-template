@@ -1,0 +1,52 @@
+.navbar-light .navbar-nav .nav-link {
+    white-space: nowrap;
+    color: $color-dark;
+    font-size: 1.2rem;
+  }
+
+  
+.navbar {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.my-sm-0 {
+  padding: 0;
+}
+
+.navbar {
+  .btn {
+    box-shadow: none;
+  }
+}
+
+
+@media (min-width: 991px) {
+  .dropdown .show {
+    margin-top: -1px;
+    margin-left: -1px;
+    border-radius: 0;
+    border-top: 1px solid $color-light;
+    background-color: $color-dark ;
+
+
+    & > .dropdown-item {
+      color: $color-light;
+      transition: color, background-color 0.2s linear;
+      
+      &:hover,
+      &:focus {
+        color: $color-dark;
+        background-color: $color-light;
+      }
+    }
+  }
+
+  .show .dropdown-toggle {
+    background-color: $color-dark;
+  } 
+
+  .header-nav .dropdown.show .dropdown-toggle {
+    color: $color-light;
+  }
+}

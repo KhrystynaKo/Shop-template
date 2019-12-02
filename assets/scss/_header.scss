@@ -1,0 +1,99 @@
+.header-nav {
+  padding: 1.1rem;
+  background-color: rgba($color-light, 0.8%);
+}
+
+.navbar-nav {
+  @media (min-width: 991px) {
+    padding: 0 30px 0 70px;
+    width: calc(100% - 300px);
+  }
+  
+}
+
+.nav-item {
+  @media (min-width: 991px) {
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid $color-dark;
+
+    &:first-of-type {
+      border-left: 1px solid $color-dark;
+    }
+  }
+}
+
+.nav-form {
+  width: 14rem;
+  height: 50px;
+  border: 1px solid $color-dark;
+  flex-wrap: nowrap;
+
+  @media (max-width: 992px) {
+    display: inline-flex;
+    width: calc(100% - 100px);
+  }
+
+  .form-control {
+   
+    box-shadow: none;
+    width: calc(100% - 50px);
+    
+  }
+
+  &-search {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    
+
+    &:focus {
+    background-color: transparent;
+    }
+  }
+}
+
+.fa-shopping-cart {
+  margin-left: 30px;
+  padding: 12px;
+  font-size: 1.5rem;
+  color: $color-dark;
+  background-color: $color-light;
+  transition: color, background-color 0.2s linear;
+
+  &:hover,
+  &:focus {
+    color: $color-light;
+    background-color: $color-dark;
+  }
+  
+}
+
+.fa-search {
+  margin-right: 5px;
+  padding: 11px;
+  color: $color-light;
+  background-color: $color-dark;
+
+  &:hover,
+  &:focus {
+    color: $color-dark;
+    background-color: $color-light; 
+  }
+}
+.nav-form {
+  position: relative;
+  &-card-counter {
+    display: none;
+    position: absolute;
+    padding: 0 8px;
+    top: -5px;
+    right: 55px;
+    color: $color-light;
+    background-color: $color-dark;
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.5);;
+  }
+}
+
+
