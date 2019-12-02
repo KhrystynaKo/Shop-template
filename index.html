@@ -14,61 +14,63 @@
 </head>
 
 <body>
-    <header class="header">
+  <header class="header">
+    <div class="header-nav">
+      <div class="container">
 
-        <div class="header-nav">
-          <div class="container">
-    
-            <nav class="navbar navbar-expand-lg navbar-light">
-    
-              <a class="navbar-brand" href="#">
-                <img src="assets/img/icon-3.png" alt="site logo">
-              </a>
-    
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav" aria-controls="navbarnav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-    
-              <div class="collapse navbar-collapse" id="navbarnav">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Products
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Lorem ipsum dolor</a>
-                      <a class="dropdown-item" href="#">Sit amet</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Consectetur adipisicing </a>
-                      <a class="dropdown-item" href="#">Architecto consequatur</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Payment</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shipping</a>
-                  </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0 page-header__navbar-search">
-                  <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="Search">
-                  <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                </form>
-                <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-shopping-cart" ></i></button>
-              </div>
-    
-            </nav>
-    
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/icon-3.png" alt="site logo">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav"
+            aria-controls="navbarnav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarnav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDrop" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Lorem ipsum dolor</a>
+                  <a class="dropdown-item" href="#">Sit amet</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Consectetur adipisicing </a>
+                  <a class="dropdown-item" href="#">Architecto consequatur</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Payment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shipping</a>
+              </li>
+            </ul>
+            <form class="nav-form form-inline my-2 my-lg-0">
+              <input class="nav-form-search form-control mr-sm-2" type="search" placeholder="search" aria-label="Search">
+              <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <button class="nav-form-card btn my-2 my-sm-0" type="submit"><i class="fas fa-shopping-cart"></i></i>
+              <span id="cart-counter" class="nav-form-card-counter">1</span></button>
           </div>
-        </div>
 
-  <script src="libs/jquery/dist/jquery.min.js"></script>
-  <script src="libs/popper.js/dist/umd/popper.min.js"></script>
-  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="assets/js/main.js"></script>
+        </nav>
+
+      </div>
+    </div>
+
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
