@@ -1,0 +1,124 @@
+
+.main-header {
+  margin-bottom: 1.8rem;
+
+    &-select {
+    width: 100%;
+    margin-top: 8px;
+    padding: 3px 10px 5px;
+    background-color: $color-dark;
+    border: 1px solid $color-light;
+    border-radius: 0;
+    font-size: 1.2rem;
+    color: $color-light;
+  }
+}
+
+.card-btn-container {
+  position: absolute;
+  margin: 5px;
+  right: 0;
+  display: flex;
+  width: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  position: relative;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid $color-light;
+
+  &-img {
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    background-color: rgba($color-light, 0.8%);
+
+
+    & > img {
+      width: auto;
+    }
+  }
+
+  &-btn {
+    margin-bottom: 5px;
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    color: $color-dark;
+    background-color: transparent;
+    border: 1px solid $color-dark;
+    transition: color, background-color 0.2s linear;
+
+    &:active, &:focus {
+      outline: none;
+    }
+  }
+
+  &-text {
+    font-size: 1.25rem; 
+    line-height: 1.2;
+  }
+
+  &-price {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+    & > sub {
+      top: -13px;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.card-body {
+  padding: 1rem; 
+
+  & > p {
+    margin-bottom: 5px;
+
+    &:first-of-type {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-item {
+    margin: 15px 10px;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $color-light;
+    border: 1PX solid $color-light;
+    border-radius: 0;
+    width: 100%;
+
+    &:last-of-type {
+      background-color: rgba($color-light, 0.2%);
+    }
+
+    &:hover,
+    &:focus {
+      color: $color-dark;
+      border: 1PX solid $color-light;
+      background-color: rgba($color-light, 0.8%);
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.fa-shopping-cart {
+  padding-left: 7px;
+}
