@@ -1,0 +1,51 @@
+.sidebar-form {
+  padding: 25px 25px 0 25px;
+  border-top: 1px solid $color-light;
+
+  @media (min-width: 991px) {
+    background-color: rgba($color-light, 0.3%);
+    border-right: 1px solid $color-light;
+    border-top: none;
+  
+  }
+  
+  & > a {
+    color: $color-light;
+  }
+
+  &-btn {
+    margin-top: 25px;
+    width: 100%;
+    background-color: $color-dark;
+    border: 1px solid $color-light;
+    border-radius: 0;
+    color: $color-light;
+  }
+}
+
+.form-title {
+  font-weight: bold;
+}
+
+.form-check{
+  margin-top: 10px;
+
+  &-input {
+    margin-top: 11px;
+    appearance: none;
+    outline: none;
+  
+    &:checked {
+      background-color: $color-light;
+    }
+  
+    &::before {
+      content: '';
+      display: block;
+      width: 13px;
+      height: 13px;
+      border: 1px solid $color-light;
+    }
+  }
+}
+
