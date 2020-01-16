@@ -52,8 +52,6 @@
   padding: 16px 0 0 0;
   background-color: transparent;
 
-  
-
   a {
     color: rgba($color-light, 0.5%);
   }
@@ -69,16 +67,15 @@
   }  
 }
 
-// .breadcrumb {
-//   padding: 16px 0 0 0;
-//   background-color: transparent;
-//   a {
-//     color: rgba($color-light, 0.5%);
-//     }
+.btn-outline-success {
+  color: $color-dark;
+  border-color: $color-dark;
+  border-radius: 0;
 
-//   &-item {
-//     font-size: 0.9rem;
+  &:hover {
+    color: $color-light;
+    border-color: $color-dark;
+    background-color: $color-dark;
+  }
+}
 
-//     &:not-
-//   }
-// }

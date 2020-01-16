@@ -51,10 +51,13 @@
     background-color: transparent;
     }
   }
+  &-card {
+    margin-left: 30px;
+    border: none;
+  }
 }
 
 .fa-shopping-cart {
-  margin-left: 30px;
   padding: 12px;
   font-size: 1.5rem;
   color: $color-dark;
