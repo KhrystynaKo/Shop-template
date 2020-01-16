@@ -107,27 +107,128 @@
     </div>
   </header>
 
-    <div class="container">
-      <div class="row">
-        <main class="col-lg-9 order-lg-2">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home page</a></li>
-              <li class="breadcrumb-item"><a href="#">Products</a></li>
-              <li class="breadcrumb-item" aria-current="page">Laptops and tablets</li>
-            </ol>
-          </nav>
-        </main>
-        <aside class="col-lg-3 order-lg-1">
-          sg
-        </aside>
-      </div>
-    </div>
+  <div class="container">
+    <div class="row">
+      <main class="col-lg-9 order-lg-2">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home page</a></li>
+            <li class="breadcrumb-item"><a href="#">Products</a></li>
+            <li class="breadcrumb-item" aria-current="page">Laptops and tablets</li>
+          </ol>
+        </nav>
+        <div class="row main-header">
+          <div class="col-md-8">
+            <h1 class="main-header-title">Laptops and Tablets</h1>
+          </div>
+          <div class="col-md-4">
+            <select class="main-header-select" id="ChooseOption" required>
+              <option value="1">sort by price</option>
+              <option value="2">sort by name</option>
+              <option value="3">sort by date</option>
+              <option value="4">sort by popularity</option>
+            </select>
+          </div>
+        </div>
 
-    <script src="libs/jquery/dist/jquery.min.js"></script>
-    <script src="libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
+      </main>
+      <aside class="sidebar col-lg-3 order-lg-1">
+        <div class="sidebar-form">
+          <legend class="form-title">Device type</legend>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              Laptop
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="tablet">
+            <label class="form-check-label" for="tablet">
+              Tablet
+            </label>
+          </div>
+        </div>
+
+        <div class="sidebar-form">
+          <legend class="form-title">Color</legend>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              Black
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="tablet">
+            <label class="form-check-label" for="tablet">
+              Red
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              Green
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              Blue
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              Orange
+            </label>
+          </div>
+        </div>
+
+        <div class="sidebar-form">
+          <legend class="form-title">RAM</legend>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              1GB
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="tablet">
+            <label class="form-check-label" for="tablet">
+              2GB
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              4GB
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              6GB
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="laptop">
+            <label class="form-check-label" for="laptop">
+              8GB
+            </label>
+          </div>
+        </div>
+        <div class="sidebar-form">
+          <a href="#">Show more options...</a>
+          <button type="button" class="btn sidebar-form-btn">Submit</button>
+        </div>
+
+      </aside>
+    </div>
+  </div>
+
+  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="libs/popper.js/dist/umd/popper.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
