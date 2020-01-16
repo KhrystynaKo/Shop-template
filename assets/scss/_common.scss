@@ -1,4 +1,9 @@
 body {
-    background: (url(../img/patt.png));
-    font-size: 21px;
+  background: (url(../img/patt.png));
+  font-size: 21px;
+  color: $color-light;
+}
+
+h1 {
+  font-size: 2.9rem;
 }
