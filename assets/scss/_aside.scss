@@ -5,6 +5,12 @@
     background-color: rgba($color-light, 0.3%);
     border-right: 1px solid $color-light;
   }
+
+  &:first-of-type {
+    @media (max-width: 991px) {
+      border-top: 1px solid $color-light;
+    }
+  }
   
   & > a {
     color: $color-light;
