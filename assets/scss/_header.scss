@@ -52,6 +52,7 @@
     }
   }
   &-card {
+    position: relative;
     margin-left: 30px;
     border: none;
   }
@@ -85,14 +86,14 @@
   }
 }
 .nav-form {
-  position: relative;
+  // position: relative;
 
   &-card-counter {
     display: none;
     position: absolute;
     padding: 0 8px;
-    top: -5px;
-    right: -25px;
+    top: -15px;
+    right: -15px;
     color: $color-light;
     background-color: $color-dark;
     border-radius: 50%;
