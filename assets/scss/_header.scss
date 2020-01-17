@@ -86,12 +86,13 @@
 }
 .nav-form {
   position: relative;
+
   &-card-counter {
     display: none;
     position: absolute;
     padding: 0 8px;
     top: -5px;
-    right: 55px;
+    right: -25px;
     color: $color-light;
     background-color: $color-dark;
     border-radius: 50%;
