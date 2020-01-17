@@ -1,18 +1,19 @@
 
 .main-header {
-  margin-bottom: 1.8rem;
+    margin-bottom: 1.8rem;
 
-    &-select {
-    width: 100%;
-    margin-top: 8px;
-    padding: 3px 10px 5px;
-    background-color: $color-dark;
-    border: 1px solid $color-light;
-    border-radius: 0;
-    font-size: 1.2rem;
-    color: $color-light;
+      &-select {
+      width: 100%;
+      margin-top: 8px;
+      padding: 3px 10px 5px;
+      background-color: $color-dark;
+      border: 1px solid $color-light;
+      border-radius: 0;
+      font-size: 1.2rem;
+      color: $color-light;
+    }
   }
-}
+
 
 .card-btn-container {
   position: absolute;
@@ -121,4 +122,14 @@
 
 .fa-shopping-cart {
   padding-left: 7px;
+}
+.more {
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+
+  & > a {
+    color: $color-light;
+  }
 }
