@@ -94,9 +94,9 @@
   flex-wrap: wrap;
 
   &-item {
-    margin: 15px 10px;
-    padding: 8px;
-    font-size: 1.2rem;
+    margin: 15px 14px;
+    padding: 10px;
+    font-size: 1.1rem;
     font-weight: bold;
     color: $color-light;
     border: 1PX solid $color-light;
@@ -118,10 +118,11 @@
       font-size: 1rem;
     }
   }
-}
 
-.fa-shopping-cart {
-  padding-left: 7px;
+  & > button > i {
+    padding-left: 10px;
+    font-size: 1rem;
+  }
 }
 .more {
   margin-bottom: 30px;

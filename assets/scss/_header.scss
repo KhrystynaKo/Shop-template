@@ -3,6 +3,12 @@
   background-color: rgba($color-light, 0.8%);
 }
 
+.navbar {
+  @media (max-width: 771px) {
+  padding: 8px 0;  
+  }
+}
+
 .navbar-nav {
   @media (min-width: 991px) {
     padding: 0 30px 0 70px;
@@ -85,6 +91,11 @@
     background-color: $color-light; 
   }
 }
+
+.cart {
+  font-size: 1.5rem;
+}
+
 .nav-form {
   // position: relative;
 
